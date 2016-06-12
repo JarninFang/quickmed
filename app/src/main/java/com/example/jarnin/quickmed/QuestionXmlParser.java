@@ -7,11 +7,15 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.StringReader;
 import org.xmlpull.v1.*;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.StringWriter;
 import java.util.*;
 
 
@@ -128,10 +132,14 @@ public class QuestionXmlParser {
         }
 
         public synchronized void setResponse(int questionNumber, String response) {
-            Log.e("RESPONSE", "to question #: " + questionNumber + " setting response: " +
-                    response);
+            //Log.e("RESPONSE", "to question #: " + questionNumber + " setting response: " +
+	        //       response);
             thisSectionsQuestions.get(questionNumber).setResponseText(response);
         }
+
+	    public Question getSpecificQuestion(int qNumber) {
+		    return thisSectionsQuestions.get(qNumber);
+	    }
     }
     public class Question {
         private String section = "";
@@ -168,15 +176,17 @@ public class QuestionXmlParser {
     }
 
     public Question getNextQuestion(int questionSection, int questionNumber) {
-        return this.sectionArray.get(questionSection).getNextQuestionThisSection();
+        return sectionArray.get(questionSection).getNextQuestionThisSection();
     }
 
     public int getNumQuestionsThisSection(int section) {
-        return this.sectionArray.get(section).getNumQuestionsThisSection();
+        return sectionArray.get(section).getNumQuestionsThisSection();
     }
+
+
     private void pushNewQuestionToList(Question newQuestion, int sectionNumber) {
         this.questionArray.add(newQuestion);
-        this.sectionArray.get(sectionNumber).addQuestionToThisSection(newQuestion);
+        sectionArray.get(sectionNumber).addQuestionToThisSection(newQuestion);
     }
 
     /*
@@ -210,7 +220,7 @@ public class QuestionXmlParser {
 	        //Log.e("TOUCHABLES", "ID of t: " + t.get);
 	        //if (t != null) {
 		        String response = t.getText().toString();
-		        Log.e("TOUCHABLES", t.getText().toString());
+		        //Log.e("TOUCHABLES", t.getText().toString());
 		        this.sectionArray.get(sectionID).setResponse(i, response);
 	        //} else
 		      //  Log.e("TOUCHABLES", "get text is null");
@@ -222,11 +232,102 @@ public class QuestionXmlParser {
 
     }
 
+	/*Since we now have the data persisting through fragment transitions, we need to store the
+	data into the patient xml file.
+
+	The R.raw.questions_patient.xml file is suppoed to be a temporary internal storage saved
+	file, deleted when patient data is pushed to the db server.
+	 */
+	public void pushAllDataToPatientXML() {
+		final String xmlFile = "questions_patient.xml";
+
+		int event;
+		String entryText = null;
+		InputStream stream = context.getResources().openRawResource(R.raw.questions_patient);
+
+
+		//Log.e("SAVING", "saving to this dir: " + context.getApplicationContext().getFilesDir()
+		//		.getAbsolutePath());
+		try {
+			xmlFactoryObject = XmlPullParserFactory.newInstance();
+			XmlPullParser parser = xmlFactoryObject.newPullParser();
+			parser.setInput(stream, null);
+			event = parser.getEventType();
+			int sectionNumber = 0;
+			int questionNumber = 0;
+
+			//FileOutputStream fileos = new FileOutputStream(new File(context.getFilesDir() +
+			//		xmlFile), false);
+
+			FileOutputStream fileos = new FileOutputStream(new File(context.getFilesDir()
+					+ "/" + xmlFile));
+			Log.e("SAVING", "Saving as file: " + context.getFilesDir()+"/"+xmlFile);
+			//FileOutputStream fileos =
+			// context
+			// .openFileOutput(xmlFile, Context
+			// .MODE_PRIVATE);
+			XmlSerializer xmlSerializer = Xml.newSerializer();
+			StringWriter writer = new StringWriter();
+			xmlSerializer.setOutput(writer);
+			xmlSerializer.startDocument("UTF-8", false);
+			String lastEntryName = null;
+			while(event != XmlPullParser.END_DOCUMENT) {
+				String entryName = parser.getName();
+
+				switch (event) {
+					case XmlPullParser.START_TAG:
+						xmlSerializer.startTag(null, entryName);
+						lastEntryName = entryName;
+						break;
+					case XmlPullParser.TEXT:
+						entryText = parser.getText();
+						if(lastEntryName.equals("response")) { //ERROR HAPPENING HERE
+							String res = sectionArray.get(sectionNumber)
+									.getSpecificQuestion(questionNumber).getResponse();
+
+							xmlSerializer.text(res);// +
+									//"</response>");
+							Log.e("RESPONSE", "Setting response to this question: " + res);
+							questionNumber++;
+							xmlSerializer.endTag(null, "response");
+						}
+						else
+							xmlSerializer.text(entryText);
+						break;
+					case XmlPullParser.END_TAG:
+						//if(lastEntryName.equals("response"))
+						//	xmlSerializer.endTag(null, lastEntryName);
+						//else
+						if(!entryName.equals("response"))
+							xmlSerializer.endTag(null, entryName);
+						lastEntryName = "none response";
+						if(entryName.equals("section")){
+							sectionNumber++;
+							questionNumber = 0;
+						}
+						break;
+				}
+
+				event = parser.next();
+			}
+			xmlSerializer.endDocument();
+			xmlSerializer.flush();
+
+			String dataWrite = writer.toString();
+			fileos.write(dataWrite.getBytes());
+			fileos.close();
+
+			Log.e("SAVING", "end of writing to file");
+		}catch(Exception e) {
+				e.printStackTrace();
+		}
+
+	}
 
     public void parseXMLAndStoreIt() {
         int event;
         String entryText = null;
-        InputStream stream = context.getResources().openRawResource(R.raw.questions_patient);
+        InputStream stream = context.getResources().openRawResource(R.raw.questions_master);
 
         try {
             xmlFactoryObject = XmlPullParserFactory.newInstance();
@@ -260,9 +361,6 @@ public class QuestionXmlParser {
                             Question questionToPush = new Question(this.title, this.type, this
                                     .text, this.response);
                             pushNewQuestionToList(questionToPush, sectionNumber-1);
-
-                            System.out.println("PUSHING NEW QUESTION TO ARRAYLIST");
-
 
                         }
 

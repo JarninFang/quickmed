@@ -359,6 +359,8 @@ public class SurveyFormActivity extends AppCompatActivity {
             //Log.e("VIEW", "able to access onDestroyView before it blows up");
             parser.saveFragmentDataToTempSurvey(getView(), getArguments().getInt(ARG_SECTION_NUMBER));
             super.onDestroyView();
+
+	        parser.pushAllDataToPatientXML();
         }
     }
 }

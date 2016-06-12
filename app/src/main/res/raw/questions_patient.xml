@@ -23,27 +23,27 @@
 			<question>
 				<text>Name</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Age</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Birth place</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What is your sex</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Highest level of education</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 	</section>
 	<section>
@@ -51,42 +51,42 @@
 			<question>
 				<text>Current health conditions and medical ailments</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 12 months, what was the most serious injury or illness that you’ve had?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 12 months,  what were you doing when the most serious injury happened to you?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 12 months did you have the opportunity to see a doctor?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are your parents still alive? If no, do you know the cause of death?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Any family history with illnesses or diseases such as diabetes, cancer, high blood pressure?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you feel that stress, anxiety, or depression have negatively impacted your quality of life in the last year?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you take any medications (including herbal supplements, vitamins, birth control)?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 	</section>
 	<section>
@@ -94,32 +94,32 @@
 			<question>
 				<text>Do you notice any significant changes in your health since the 2015 earthquake?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Did or do you currently experience earthquake related stress - managing shelter, food, family, etc.</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What health-related resources would be beneficial for you and your family immediately after an earthquake or flood?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What are the first resources that run out during/post floods and earthquakes?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What do you make sure to keep at all times when natural disasters strike?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you aware of any particular pattern to when resources are limited in relation to natural disasters, for example seasonal flooding</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 	</section>
 	<section>
@@ -127,85 +127,85 @@
 			<question>
 				<text>Are you sexually active?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<!--Ask the following only if sexually active. Maybe some way to distinguish if no, so they don't appear? -->
 			<question>
 				<text>What methods of birth control are available to you?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>The last time you had sexual intercourse, did you or your partner use a condom or other method of birth control, such as withdrawal, rhythm (safe time), birth control pills, or any other method to prevent pregnancy?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>If you wanted to get a condom, how would you most likely get it? Is it easy or difficult to get one?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How often do you or your partner use a condom when you have sexual intercourse?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you have any children, if so how many or are you planning to have children in the near future?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>(if yes) do you plan (or did you) give birth at home or at a hospital? Why?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How old were you when you had sexual intercourse for the first time?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During your life, with how many people have you had sexual intercourse?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever been screened for a sexually transmitted diseases or HIV/AIDS?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What is your current relationship status.</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What factors determined that you were ready to be a parent? Ex: financial assistance</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			
 			<!-- Below questions for the non-sexually active -->
 			<question>
 				<text>What is the main reason you have not had sexual intercourse?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you generally aware of the prospect of marriage, arranged vs unarranged marriage?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you aware/have some understanding of birth control?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>In school, were you taught in any of your classes how to avoid HIV infection or AIDS?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 	</section>
 	<section>
@@ -213,37 +213,37 @@
 			<question>
 				<text>Have you gotten any vaccinations in the past?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>If yes, then what kinds of vaccinations have you received?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have members of your family received vaccinations?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>In the next 12 months, do you plan on getting any vaccinations for yourself or have someone you know get one?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Has any health care professional ever explained vaccinations to you or your family members?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you know what age generally should kids get vaccinated?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are vaccinations easily available to you and your family?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 	</section>
 	<section>
@@ -252,154 +252,154 @@
 			<question>
 				<text>Do you drink alcohol?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>When was the first time you did either or both? First time smoking a cigarette?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever taken medication that was not prescribed to you?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever overused or misused prescription drugs?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>In the last month how many times have you drank or abused drugs?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How many occasions have you taken alcohol to the point you were drunk?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you tried to quit alcohol use? If so, did you have the necessary support?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 30 days, on the days you drank alcohol, how many drinks did you usually drink per day?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 30 days, how did you usually get the alcohol you drank?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During your life, how many times have you got into trouble with your family or friends, missed school, or got into fights, as a result of drinking alcohol?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What type of alcohol do you usually drink?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>With whom do you usually drink alcohol?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Does your family know that you drink alcohol?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Has anyone ever explained to you the potential harms of drinking alcohol or drug abuse?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During your life, how many times have you used a needle to inject any illegal drug into your body?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you ever share or reuse these needles?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>When did you start injecting drugs?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 30 days, on how many days did you smoke cigarettes?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 30 days, on how many days did you use any tobacco products other than cigarettes, such as chewing tobacco?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 12 months, have you ever tried to stop smoking cigarettes?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 7 days, on how many days have people smoked in your presence?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do or did you guardians or parents smoke, if so which ones?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>At any time during the next 12 months, do you anticipate that you may smoke a cigarette?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>If one of your best friends offered you a cigarette, would you smoke it?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you aware of how many drinks a week can be a detriment to your health?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have there ever been birth or conception complications in your family or marriage?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			
 		<!-- Below questions for non drug users -->
 			<question>
 				<text>Have you ever felt pressured to drink alcohol, smoke, or take drugs?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What is your opinion on those who drink alcohol? Smoke? Take drugs?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you know about the types of drugs that are harmful to your health?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you associate with/hang out/live with anyone who abuses drugs?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 	</section>
 	<section>
@@ -407,122 +407,122 @@
 			<question>
 				<text>What do you eat on a usual day? How many meals do you eat per day?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Does your daily diet include vegetables and fruit?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Does your diet/plate match this food plate? (show food plate in visual aids folder)</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What kinds of foods would you like to eat/prepare?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What are some limitations for you to get healthy foods?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What do you consider the most important item within your meals?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 30 days, how many times per day did you usually eat fruit, such as such as apples, oranges, mangoes, or papayas?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 30 days, how many times per day did you usually eat vegetables, such as cauliflower, or cabbages?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 30 days, how many times per day did you usually eat foods high in fat, such as ghee, fried food, ice cream, or cream doughnuts?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>In school, were you taught in any of your classes the benefits of eating more fruits and vegetables?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you gained or lost a notable amount of weight within the last year without trying to?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How much water do you drink on a daily basis?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How do you get your water?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Any exercising or activities involved? If so, how often?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 7 days, on how many days were you physically active for a total of at least 60 minutes per day?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 7 days, on how many days did you walk or ride a bicycle to or from school?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 30 days, how many times per day did you usually clean or brush your teeth?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 12 months, how often did you have a tooth ache or feel discomfort because of your teeth?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>In school, were you taught in any of your classes the importance of cleaning or brushing your teeth?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How often do you wash your hands before eating?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How often did you wash your hands after using the toilet or latrine?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How often do you use soap when washing your hands?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>In school, were you taught in any of your classes the importance of hand washing?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you have a toilet or latrine at home?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 	</section>
 	<!-- probably only ask these questions if user indicates sex as F -->
@@ -531,230 +531,230 @@
 			<question>
 				<text>What types of products are available during menstruation?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are these products affordable and easy to acquire?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you interested in other options during your period?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Would you be comfortable trying more invasive products such as tampons?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How do you currently manage your period (how do you clean cloth, how often do you change cloth, etc)?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>At what age did your menstruation begin?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you still menstruate, if so what times of the month?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do your monthly menstruations occur regularly every month?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How many days does your period last?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How painful are your periods?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you experience any irregularities or complications during your period?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you noticed mood changes during your periods?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you ever need to miss school or work because of your period?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>At what age did your menstruation stop?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>If you wanted to get a condom or any type of birth control, how would you most likely get it?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How difficult is it for you to attain a condom or any birth control?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 		<!-- Ask the following if user has been pregnant before -->
 			<question>
 				<text>Did you go for a check-up before the birth?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Did you take any prenatal vitamins?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever had a miscarriage?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you think you know what may have caused the miscarriage?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever been to an obstetrician, gynecologist, or midwife?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			
 			<!-- continue general questions -->
 			<question>
 				<text>How often do you consult a witch doctor?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What kind of health issues do you consult a witch doctor for?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you aware of the PAP test or why people take the mammogram test?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever gotten a mammogram?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<!-- this question has 2 sub questions, not sure how to deal with it so it will be just 2 following questions for now -->
 			<question>
 				<text>Do you examine your breasts for unusual occurrences?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever gotten your breasts checked by a healthcare professional?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Has a health care professional ever explained to you how to check your breasts or the importance of checking?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<!-- end sub questions -->
 			<question>
 				<text>Have you ever gotten a UTI or yeast infection; how many times?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			
 			<!-- the following questions require an opt out option -->
 			<question>
 				<text>The following questions are about self-defense and domestic violence. Would you like to opt-out of these questions?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 12 months, how many times were you physically attacked?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever been forced to have sexual intercourse when you did not want to?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>During the past 30 days, on how many days did you not go to school/work because you felt you would be unsafe at school/work OR on your way to or from school?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>The following questions are about self-defense and domestic violence. Would you like to opt-out of these questions?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you interested in learning how to defend yourself in case of attack?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you believe women are unfairly treated? Do you believe women are expected to complete “womanly” and feminine tasks?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you familiar with the definition of assault, rape, and domestic violence?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you been involved in or been a victim of domestic violence or assault in the past?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>If you have been assaulted, have you shared your story with anybody? Would you ever seek counseling or to talk with a friend? Why or why not?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What major traumas have you been through?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you have any known triggers (someone touches your throat/neck or raises their voice) that cause you to feel uneasy/uncomfortable?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<!-- this question should be 2 yes/no questions for each men and women -->
 			<question>
 				<text>Do you feel comfortable being friendly with… a. Men  b. Women </text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you interested at all in learning self-defense? (defending choke/defending against knife/defending multiple attacks)</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Has another person shared their personal story to you about their attack or assault or preventative measures taken to avoid a bad situation?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 	</section>
 	<section>
@@ -762,107 +762,107 @@
 			<question>
 				<text>How often do you find yourself getting sick?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What type of symptoms have you been faced with while ill?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you notify your parents when you fall ill?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What type of remedies do you have in order to feel better?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What are your dreams and aspirations?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you currently attend school?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>If you do go to school, what is the most important reason you go?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How are your school teachers and principals?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Are you ever pressured to stop attending school and begin working financially assist your family?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you feel safe at home and school?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you feel that you are limited by your resources?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>How often do you brush your teeth?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you wash your hands before every meal?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever played with wild animals? Have you ever been bitten by one?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>When are you ever hungry throughout the day and why?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you feel safe playing here? If not, what would make you feel safer?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>What do you do during and right after earthquakes?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you know about earthquake preparedness?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Have you ever been bullied?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Do you have a favorite parent, if so why are they your favorite?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 			<question>
 				<text>Who is/are your favorite person/s, and why are they your favorite person/s?</text>
 				<type>FreeResponse</type>
-				<response></response>
+				<response>a</response>
 			</question>
 	</section>
 </survey>
