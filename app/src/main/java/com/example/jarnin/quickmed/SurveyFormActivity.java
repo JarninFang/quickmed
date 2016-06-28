@@ -9,6 +9,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.text.InputType;
 import android.util.Log;
 import android.util.Xml;
 import android.view.LayoutInflater;
@@ -37,6 +38,17 @@ public class SurveyFormActivity extends AppCompatActivity {
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
     private String[] mSections;
+
+    /*
+        QuestionType constants
+            To be used in the section where we actually create the views to be added to the stage
+            depending on the question type pulled from the xml
+     */
+    static final String FREE_RESPONSE = "FreeResponse";
+    static final String YES_NO = "YesNo";
+    static final String VALUE_RANGE = "ValueRange";
+    static final String SINGLE_CHOICE = "SingleChoiceFromOptions";
+    static final String NUMERICAL_ANSWER = "NumericalAnswer";
 
     private static QuestionXmlParser parser;
     /*
@@ -281,10 +293,8 @@ public class SurveyFormActivity extends AppCompatActivity {
             QuestionXmlParser.Question q;
 
             LinearLayout lay = (LinearLayout) rootView.findViewById(R.id.fragment_linear_questions);
-            TextView tv_question = new TextView(getActivity());
-            EditText et_response = new EditText(getActivity());
             ArrayList<TextView> arrayQuestionTexts= new ArrayList<TextView>();
-            ArrayList<EditText> arrayResponseTexts= new ArrayList<EditText>();
+            ArrayList<EditText> arrayResponseElement= new ArrayList<EditText>();
 
             /*
                 variableQNum is supposed to get the questions to display, and decrement them as we
@@ -302,8 +312,19 @@ public class SurveyFormActivity extends AppCompatActivity {
 
                 arrayQuestionTexts.add(new TextView(getActivity()));
                 arrayQuestionTexts.get(arrayQuestionTexts.size()-1).setText(q.getQuestionText());
-                arrayResponseTexts.add(new EditText((getActivity())));
-	            arrayResponseTexts.get(arrayResponseTexts.size()-1).setText((q.getResponse()));
+                switch(q.getQuestionType()) {
+                    case FREE_RESPONSE:
+                        arrayResponseElement.add(new EditText((getActivity())));
+                        break;
+                    case YES_NO:
+                        //arrayResponseElement.add(new );
+                        break;
+                    case NUMERICAL_ANSWER:
+                        EditText new_et = new EditText(getActivity());
+                        new_et.setInputType(InputType.TYPE_CLASS_NUMBER);
+                        arrayResponseElement.add(new_et);
+                }
+	            arrayResponseElement.get(arrayResponseElement.size()-1).setText((q.getResponse()));
 
 
                 variableQNum--;
@@ -313,7 +334,7 @@ public class SurveyFormActivity extends AppCompatActivity {
             //populate the fragment
             while(!arrayQuestionTexts.isEmpty()) {
                 lay.addView(arrayQuestionTexts.get(0));
-                lay.addView(arrayResponseTexts.get(0));
+                lay.addView(arrayResponseElement.get(0));
 
                 //this will be the last child view added. aka the editable one
                 String tagStr = "qtag" + (lay.getTouchables().size() - 1);
@@ -324,7 +345,7 @@ public class SurveyFormActivity extends AppCompatActivity {
                 //this is NOT what we want long term. this is to just get the questions up and
                 // displayed. we don't want to lose the references to the assets.
                 arrayQuestionTexts.remove(0);
-                arrayResponseTexts.remove(0);
+                arrayResponseElement.remove(0);
 
             }
 

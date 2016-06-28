@@ -2,9 +2,10 @@
 	For now these are the question types I can think of. Going to get this working with
 	 all types as FreeResponse then go through and specialize them afterward.
 	Question types:
-		FreeResponse
-		YesNo
-		ValueRange10
+		FreeResponse = EditText
+		YesNo = Yes or No selection
+		ValueRange = ?
+		NumericalAnswer = value.RestrictDigits
 	
 	
 	We need to include patient data per the db written by the other guys. Currently the patient data
